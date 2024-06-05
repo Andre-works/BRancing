@@ -18,64 +18,214 @@
     --inv: #ffffff00;
 
 }
-.first-section{
+@media only screen and (min-width: 1301px) {
+    .first-section{
     margin-top: 7%;
     margin-left: 5%;  
     margin-bottom: -50%;  
+    }
+
+    .img{
+        width: 35%;
+        height: auto;
+        display: block;
+    }
+    .ftext{
+        font-size: 30px;
+        width: 50%;
+        color: var(--white1);
+        vertical-align: middle;
+        position: flex;
+        z-index: 2;
+        margin-left: 7%;
+    }
+    .text{
+        font-size: 15px;
+        width: 50%;
+        color: var(--white1);
+        vertical-align: middle;
+        position: flex;
+        text-align: justify;
+        z-index: 2;
+        margin-left: 40%;
+        margin-top: -25%;
+    }
+    .camp{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .camptext{
+        font-size: 30px;
+        width: 50%;
+        color: var(--white1);
+        vertical-align: middle;
+        position: flex;
+        z-index: 2;
+        margin-top: -4%;
+        margin-left: 10%;
+    }
+    .pod{
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 60%;
+    }
+    .podtext{
+        font-size: 30px;
+        width: 50%;
+        color: var(--white1);
+        vertical-align: middle;
+        position: flex;
+        z-index: 2;
+        margin-top: -4%;
+        margin-left: 10%;
+    }
+}
+@media only screen and (min-width: 740px) and (max-width: 1300px) {
+    .first-section{
+        margin-top: 7%;
+        margin-left: 10%;  
+        margin-bottom: -50%;  
+        }
+    
+        .img{
+            margin-left: 13%;
+            width: 60%;
+            height: auto;
+            display: block;
+        }
+        .ftext{
+            font-size: 30px;
+            width: 50%;
+            color: var(--white1);
+            vertical-align: middle;
+            position: block;
+            z-index: 2;
+            margin-left: 25%;
+            margin-top: 10%;
+        }
+        .text{
+            font-size: 15px;
+            width: 90%;
+            color: var(--white1);
+            vertical-align: middle;
+            position: flex;
+            text-align: justify;
+            z-index: 2;
+            margin-left: 0%;
+            margin-top: 0%;
+        }
+        .camp{
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+        .camp svg{
+            height: 8%;
+            width: 8%;
+        }
+        .camptext{
+            font-size: 20px;
+            width: 50%;
+            color: var(--white1);
+            vertical-align: middle;
+            position: flex;
+            z-index: 2;
+            margin-top: -6%;
+            margin-left: 10%;
+        }
+        .pod{
+            margin-left: 5%;
+            margin-top: 5%;
+            margin-bottom: 65%;
+        }
+        .pod svg{
+            height: 8%;
+            width: 8%;
+        }
+        .podtext{
+            font-size: 20px;
+            width: 50%;
+            color: var(--white1);
+            vertical-align: middle;
+            position: flex;
+            z-index: 2;
+            margin-top: -5%;
+            margin-left: 10%;
+        }   
 }
 
 
-.img{
-    width: 35%;
-    height: auto;
-    display: block;
-}
-.ftext{
-    font-size: 30px;
-    width: 50%;
-    color: var(--white1);
-    vertical-align: middle;
-    position: flex;
-    z-index: 2;
-    margin-left: 7%;
-}
-.text{
-    font-size: 15px;
-    width: 50%;
-    color: var(--white1);
-    vertical-align: middle;
-    position: flex;
-    z-index: 2;
-    margin-left: 40%;
-    margin-top: -25%;
-    text-align: justify;
-}
-.camp{
-    margin-left: 5%;
-    margin-top: 5%;
-}
-.camptext{
-    font-size: 30px;
-    width: 50%;
-    color: var(--white1);
-    vertical-align: middle;
-    position: flex;
-    z-index: 2;
-    margin-top: -4%;
-    margin-left: 10%;
-}
-.pod{
-    margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 60%;
-}
-.podtext{
-    font-size: 30px;
-    width: 50%;
-    color: var(--white1);
-    vertical-align: middle;
-    position: flex;
-    z-index: 2;
-    margin-top: -4%;
-    margin-left: 10%;
+@media only screen and (max-width: 739px) {
+    .first-section{
+        margin-top: 7%;
+        margin-left: 10%;  
+        margin-bottom: -50%;  
+        }
+    
+        .img{
+            margin-left: 13%;
+            width: 60%;
+            height: auto;
+            display: block;
+        }
+        .ftext{
+            white-space: nowrap;
+            font-size: 30px;
+            width: 60%;
+            color: var(--white1);
+            vertical-align: middle;
+            position: block;
+            z-index: 2;
+            margin-left: 15%;
+            margin-top: 16%;
+        }
+        .text{
+            font-size: 15px;
+            width: 90%;
+            color: var(--white1);
+            vertical-align: middle;
+            position: flex;
+            text-align: justify;
+            z-index: 2;
+            margin-left: 0%;
+            margin-top: 0%;
+        }
+        .camp{
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+        .camp svg{
+            height: 15%;
+            width: 15%;
+        }
+        .camptext{
+            white-space: nowrap;
+            font-size: 20px;
+            width: 50%;
+            color: var(--white1);
+            vertical-align: middle;
+            position: flex;
+            z-index: 2;
+            margin-top: -10%;
+            margin-left: 20%;
+        }
+        .pod{
+            margin-left: 5%;
+            margin-top: 5%;
+            margin-bottom: 65%;
+        }
+        .pod svg{
+            height: 15%;
+            width: 15%;
+        }
+        .podtext{
+            white-space: nowrap;
+            font-size: 20px;
+            width: 50%;
+            color: var(--white1);
+            vertical-align: middle;
+            position: flex;
+            z-index: 2;
+            margin-top: -10%;
+            margin-left: 20%;
+        }   
 }

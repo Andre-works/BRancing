@@ -145,14 +145,17 @@ body{
     margin-left: 8.5%;
 
 }
+.now p{
+    text-align: justify;
+}
 .right-img{
     width: 18%;
     height: auto;
     display: block;
     margin-left: 71%;
 }
-.text-left{
-    text-align: justify;
+.text-left {
+    
     font-size: 20px;
     width: 65%;
     color: var(--white1);

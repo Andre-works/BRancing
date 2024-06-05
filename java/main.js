@@ -1,28 +1,28 @@
-document.getElementById('login-button').addEventListener('click', function() {
-    var bodyLogin = document.getElementById('bodylogin');
-    if (bodyLogin.style.display === 'none' || bodyLogin.style.display === '') {
-        bodyLogin.style.display = 'block';
-    } else {
-        bodyLogin.style.display = 'none';
-    }
+document.getElementById('login-button').addEventListener('click', () => {
+    const bodyLogin = document.getElementById('bodylogin');
+    bodyLogin.style.display = 'flex';
+    document.body.classList.add('no-scroll');
 });
-document.querySelector('.close-button').addEventListener('click', function() {
-    document.getElementById('bodylogin').style.display = 'none'; // Esconde a janela de login
+
+document.querySelector('.close-button').addEventListener('click', () => {
+    const bodyLogin = document.getElementById('bodylogin');
+    bodyLogin.style.display = 'none'; 
+    document.body.classList.remove('no-scroll'); 
 });
 
 function scrollToSection() {
     var section = document.getElementById('your-story');
-    var offset = 400; // Ajuste o valor do deslocamento conforme necessário
+    var offset = 300; 
     var topPos = section.getBoundingClientRect().top + window.pageYOffset - offset;
     window.scrollTo({ top: topPos, behavior: 'smooth' });
 }
 window.onbeforeunload = function () {
-    window.scrollTo(0, 0); // Rola para o topo quando a página é recarregada
+    window.scrollTo(0, 0);
 }
 const slides = document.querySelectorAll('.carousel-slide img');
     const slideContainer = document.querySelector('.carousel-slide');
     let currentIndex = 0;
-    const interval = 3000; // Intervalo de 3 segundos
+    const interval = 3000;
 
     function showNextSlide() {
         currentIndex++;

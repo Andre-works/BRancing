@@ -261,9 +261,7 @@ main{
     }
 }
 @media only screen and (min-width: 1401px) and (max-width: 1840px) {
-    body{
-        background-color: green;
-    }
+    
     .box-btn-actions{
         display: flex;
     }
@@ -502,9 +500,7 @@ main{
     }
 }
 @media only screen and (min-width: 1101px) and (max-width: 1400px) {
-    body{
-        background-color: pink;
-    }
+    
     .box-btn-actions{
         display: flex;
     }
@@ -741,9 +737,7 @@ main{
     }
 }
 @media only screen and (min-width: 741px) and (max-width: 1100px) {
-    body{
-        background-color: red;
-    }
+    
     .box-btn-actions{
         display: flex;
     }
@@ -981,9 +975,7 @@ main{
     }
 }
 @media only screen and (min-width: 511px) and (max-width: 740px)  {
-    body{
-        background-color: green;
-    }
+    
     .box-btn-actions{
         display: flex;
     }
@@ -1222,9 +1214,7 @@ main{
     }
 }
 @media only screen and (max-width: 510px)  {
-    body{
-        background-color: pink;
-    }
+    
     .box-btn-actions{
         display: flex;
     }
