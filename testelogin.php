@@ -13,12 +13,14 @@
 
         if (mysqli_num_rows($result) == 1) {
             $user = mysqli_fetch_assoc($result);
+            $_SESSION['usuario_logado'] = true;
             $_SESSION['nome'] = $user['nome'];
             $_SESSION['email'] = $user['email'];
-            header('Location: index.php');
+            header('Location: Home.php');
             exit();
         } else {
             echo "Email ou senha inválidos.";
+            header('Location: index.php');
         }
     }
 ?>

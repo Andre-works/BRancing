@@ -145,17 +145,13 @@ body{
     margin-left: 8.5%;
 
 }
-.now p{
-    text-align: justify;
-}
 .right-img{
     width: 18%;
     height: auto;
     display: block;
     margin-left: 71%;
 }
-.text-left {
-    
+.text-left h1{
     font-size: 20px;
     width: 65%;
     color: var(--white1);
@@ -163,16 +159,24 @@ body{
     margin-top: -17%;
     margin-right: 20%;
     margin-left: 1%;
+    text-align: justify;
 }
 .categ{
     margin-top: 5%;
-    width: 100%;
-    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 100%;
     display: flex;
-    margin-left: 4%;
+}
+.categ div{
+    margin-right: 10%;
+}
+.categ div:last-child{
+    margin-right: 0%;
 }
 .img-ssv{
-    width: 60%;
+    width: 300px;
     height: auto;
     display: block;
     margin-bottom: 2%;
@@ -182,52 +186,66 @@ body{
     transition: .4s;
     z-index: 2;
 }
-.tit-ssv{
+.tit-ssv {
     font-size: 30px;
-    width: 50%;
+    width: 100%;
     color: var(--white1);
     vertical-align: middle;
-    position: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 2;
-    margin-left: 21%;
-    margin-right: 10%;
 }
 .text-ssv1{
     font-size: 15px;
-    width: 50%;
+    width: 100%;
     color: var(--white1);
     vertical-align: middle;
     position: flex;
     text-align: center;
     z-index: 2;
     margin-top: .5%;
-    margin-right: 10%;
-    margin-left: 3%;
 }
-.no-underline {
+.underline {
     text-decoration: none;
 }
-
+.det{
+    margin-left: 8%;
+    margin-right: 7.5%;
+    width: 85%;
+    height: 100%;
+    display: flex;
+}
+.det a{
+    width: 10%;
+    margin-right: auto;
+}
+.det a:first-child{
+    margin-left: 0%;
+}
+.det a:last-child{
+    margin-right: 0%;
+}
 .details {
     display: flex;
     background-color: var(--white1);
     color: var(--black);
-    margin-left: 14%;  
-    margin-top: 3%;
     padding: 10px;
-    margin-right: 5%;
-    width: 25%;
+    align-items: center;
+    vertical-align: end;
+    justify-content: center;
+    width: 100%;
     border: none;
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
     font-weight: bold;
-    justify-content: center;
-    align-items: center;
     position: relative;
     border: 1px solid transparent;
     z-index: 3;
+    
 }
+
 .details svg.hover {
     display: none;
 }
@@ -246,89 +264,101 @@ body{
     border: 1px solid var(--white1);
     transition: .4s;
 }
-.img-ssv{
-    width: 60%;
+.img-tt{
+    width: 250px;
     height: auto;
     display: block;
+    margin-bottom: 2%;
 }
-.tit-ssv{
+.img-tt:hover {
+    transform: scale(1.1);  
+    transition: .4s;
+    z-index: 2;
+}
+.tit-tt{
     font-size: 30px;
-    width: 50%;
+    width: 100%;
     color: var(--white1);
     vertical-align: middle;
-    position: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 2;
-    margin-top: -3%;
-    margin-left: 21%;
-    margin-right: 10%;
+    white-space: nowrap;
 }
-.text-ssv2{
+.text-tt{
     font-size: 15px;
-    width: 50%;
+    width: 100%;
     color: var(--white1);
     vertical-align: middle;
     position: flex;
     text-align: center;
     z-index: 2;
     margin-top: .5%;
-    margin-right: 10%;
-    margin-left: 3%;
 }
 
-.img-ssv{
-    width: 60%;
+.img-sp{
+    width: 300px;
     height: auto;
     display: block;
+    margin-bottom: 2%;
 }
-.tit-ssv{
-    font-size: 30px;
-    width: 50%;
+.img-sp:hover {
+    transform: scale(1.1);  
+    transition: .4s;
+    z-index: 2;
+}
+.tit-sp{
+    font-size: 27px;
+    width: 100%;
     color: var(--white1);
     vertical-align: middle;
-    position: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 2;
-    margin-top: -3%;
-    margin-left: 21%;
-    margin-right: 10%;
+    white-space: nowrap;
 }
-.text-ssv3{
+.text-sp{
     font-size: 15px;
-    width: 50%;
+    width: 100%;
     color: var(--white1);
     vertical-align: middle;
     position: flex;
     text-align: center;
     z-index: 2;
     margin-top: .5%;
-    margin-right: 10%;
-    margin-left: 3%;
 }
 
-.img-ssv{
-    width: 60%;
+.img-vl{
+    width: 300px;
     height: auto;
     display: block;
+    margin-bottom: 2%;
 }
-.tit-ssv{
-    font-size: 30px;
-    width: 50%;
+.img-vl:hover {
+    transform: scale(1.1);  
+    transition: .4s;
+    z-index: 2;
+}
+.tit-vl{
+    font-size: 27px;
+    width: 100%;
     color: var(--white1);
     vertical-align: middle;
-    position: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 2;
-    margin-top: -3%;
-    margin-left: 21%;
-    margin-right: 10%;
 }
-.text-ssv4{
+.text-vl{
     font-size: 15px;
-    width: 50%;
+    width: 100%;
     color: var(--white1);
     vertical-align: middle;
     position: flex;
     text-align: center;
     z-index: 2;
     margin-top: .5%;
-    margin-right: 10%;
-    margin-left: 3%;
+    
 }
