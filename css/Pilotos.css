@@ -30,8 +30,36 @@ body{
     width: 100%;
     height: auto;
     display: block;
-    margin-top: 45%;
-    margin-bottom: 50%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+.thirth-section {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+.fourth-section{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.fifth-section{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+.sixth-section{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 20%;
 }
 
 .img-p1 {
@@ -46,6 +74,8 @@ body{
     font-size: 40px;
     color: var(--blue);
     text-align: center;
+    height: 5px;
+    width: 80%;
     z-index: 2;
     margin-top: 25px;
     display: flex;
@@ -71,7 +101,7 @@ body{
     fill: var(--white1);
     display: block;
     margin: auto;
-    margin-top: -50%;
+    margin-top: -30%;
     margin-left: 45%;
 }
 
@@ -98,11 +128,12 @@ body{
     margin-right: -100%;
     display: block;
 }
-.textp1{
-    font-size: 25px;
+.textp1 p{
+    font-size: 20px;
     color: var(--white1);
     margin-left: 51%;
     margin-top: 1.5%;
+    text-align: justify;
 }
 .conquist{
     display: flex;
@@ -114,4 +145,58 @@ body{
     color: var(--white1);
     margin-left: 5%;
     margin-top: 1.5%;
+}
+.ctext2{
+    font-size: 20px;
+    color: var(--white1);
+    margin-left: 50%;
+    margin-top: 1.5%;
+}
+.ctext3{
+    font-size: 20px;
+    color: var(--white1);
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+.ctext4{
+    font-size: 20px;
+    color: var(--white1);
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+.ctext5{
+    font-size: 20px;
+    color: var(--white1);
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+.ctext6{
+    font-size: 20px;
+    color: var(--white1);
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+.nome{
+    font-size: 40px;
+    color: var(--blue);
+    text-align: center;
+    z-index: 2;
+    margin-top: -90px;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.idade{
+    font-size: 20px;
+    color: var(--blue);
+    text-align: center;
+    font-weight: bold;
+    z-index: 2;
+    margin-top: 0px;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

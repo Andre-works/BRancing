@@ -110,9 +110,14 @@ if (!isset($_SESSION['usuario_logado'])) {
             </div>
             <div class="inicio">
                 <img class="left-img" src=".\images\box.jpg" alt="left-img">
-                <p class="text-right">
-                    Text
-                </p> 
+                <div class="text-right">
+                    <h1>
+                    A nossa jornada nas competições começou em 2000, começámos em provas de campeonato nacional e europeu de velocidade na categoria superbike, com o aumento do profissionalismo e comprometimento com o sucesso das corridas, tornamo-nos referência na categoria de todo-o-terreno (SSV).
+                    Vencemos o campeonato nacional de velocidade em 2008, 2009 e 2010, assim recebemos convites exclusivos para provas internacionais ao nível das melhores equipas mundiais, deixá-mos a nossa marca no Mundial de Superbikes WSBK, North West 200, TT da Ilha de Man e o GP de Macau.
+                    Depois de representar uma das maiores formaçõs do Campeonato Nacional de Todo-o-Terreno na categoria SSV, desde o ano passado aderimos ao projeto de competir no Campeonato Português de Todo-o-Terreno (FPAK), onde os SSV's e Autos correm lado a lado, mais rápidos que a maioria dos automóveis, os SSV's são um fórmula de sucesso a nível Mundial
+                    O nosso departamento de competição apoia o desporto motorizado e trata atualmente da preparação de veículos side-by-side para provas nacionais e internacionais, tais como o campeonato nacional de Todo-o-Terreno, o Merzouga Rally, o Rallye Du Marroc e o Dakar, dando assistência a diversos pilotos e à nossa equipa Benimoto Racing Team, vencedora do campeonato nacional de todo-o-terreno na classe SSV.
+                    </h1> 
+                </div>
             </div>
             <div class="x-bar2">
                 <h2 class="text-bar2">Atualidade</h2>
@@ -121,13 +126,13 @@ if (!isset($_SESSION['usuario_logado'])) {
             <div class="now">
                 <img class="right-img" src=".\images\box.jpg" alt="right-img">
                 <div class="text-left">
-                    <h5>
+                    <h1>
                         Na atualidade, temos-nos destacado no cenário nacional e internacional das competições todo-o-terreno, mantendo-nos no topo das corridas off-road com uma equipa dedicada e veículos de alta performance. Iniciamos a temporada com grande entusiasmo, participando nas competições do Campeonato de Portugal de Todo-o-Terreno (FPAK) e do Campeonato Nacional de Todo-o-Terreno (FMP). A primeira ronda, do Baja TT Montes Alentejanos, em Beja, foi marcada pela participação de seis viaturas da nossa equipa.
                         Continuamos a investir na inovação e no desenvolvimento de veículos side-by-side (SSV), T3 e T4, visando proporcionar as melhores condições competitivas para os nossos pilotos. Uma das grandes novidades desta temporada é o novo Can-Am Maverick R, que promete elevar o desempenho da equipa nas provas, que está constantemente a realizar testes em novos componentes de fabricantes globais para garantir que os veículos estejam sempre no auge da performance.
                         Com uma equipa de pilotos talentosos e uma infraestrutura robusta, continuamos a ser uma força dominante nas competições de todo-o-terreno, buscamos sempre novas conquistas e elevando o nível de excelência no desporto motorizado.
                         Com compromisso de excelência, estmos prontos para enfrentar os desafios da temporada 2024. Acompanhe-nos e torça connosco pelos nossos pilotos enquanto eles conquistam novos patamares no mundo do todo-o-terreno.
-                    </h5> 
-                </div>
+                    </h1> 
+                </div> 
                 
             </div>
             <div class="x-bar3">
@@ -150,8 +155,9 @@ if (!isset($_SESSION['usuario_logado'])) {
                 </div>
                 <div>
                     <img class="img-vl" src=".\images\CanAm-Maverick1.png" alt="right-img">
-                    <h2 class="tit-vl">Campeonato Velocidade</h2>
-                    <h2 class="tit-vl">Superbike</h2>
+                    <div class="tit-vl">
+                        <h2>Campeonato Velocidade Superbike</h2>
+                    </div>
                     <p class="text-vl">Velocidade pura, adrenalina máxima</p>
                 </div>
                 <div>
@@ -203,10 +209,10 @@ if (!isset($_SESSION['usuario_logado'])) {
                 <h2>BENIMOTO RACING</h2>
                 <br>
                 <div class="linhaR"></div>
-                <a href="Sobre.html"> 
+                <a href="Sobre.php"> 
                     <p>Sobre Nós</p>
                 </a>
-                <a href="Inf.html"> 
+                <a href="Inf.php"> 
                     <p>Pedir Informação</p>
                 </a>
                 <div class="redescont">

@@ -183,10 +183,10 @@ if (!isset($_SESSION['usuario_logado'])) {
                 <h2>BENIMOTO RACING</h2>
                 <br>
                 <div class="linhaR"></div>
-                <a href="Sobre.html"> 
+                <a href="Sobre.php"> 
                     <p>Sobre Nós</p>
                 </a>
-                <a href="Inf.html"> 
+                <a href="Inf.php"> 
                     <p>Pedir Informação</p>
                 </a>
                 <div class="redescont">

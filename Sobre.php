@@ -111,7 +111,12 @@ if (!isset($_SESSION['usuario_logado'])) {
                 <div class="bar1-1"></div>
                 <div class="bar1-2"></div>
             </div>
-
+            <dic class="text">
+                <p>A Benimoto Racing é uma equipa de corrida de renome internacional, com um histórico de conquistas e vitórias em competições de motociclismo em todo o mundo. Os nossos pilotos são alguns dos mais talentosos e destemidos do circuito, prontos para enfrentar qualquer desafio e conquistar novos pódios.
+                <br><br>Aqui a nossa missão é levar a emoção das corridas a novos patamares, inspirando fãs e entusiastas em todo o mundo. Buscamos a excelência em cada curva, cada aceleração e cada ultrapassagem, sempre com a determinação de alcançar a vitória.
+                <br><br>Junte-se à Família Benimoto Racing se é um entusiasta de corridas em busca de emoção e desafios, não procure mais. Na Benimoto Racing, encontrará uma comunidade apaixonada, uma equipe dedicada e uma experiência única nas pistas. Venha fazer parte da nossa história e viver a emoção da alta competição.
+                <br><br>Prepare-se para acelerar, desafiar os limites e viver a paixão do motociclismo com a Benimoto Racing. Onde a velocidade encontra a emoção, e a adrenalina nunca para.</p>
+            </div>
         </section>
     </main>
 
@@ -140,10 +145,10 @@ if (!isset($_SESSION['usuario_logado'])) {
                 <h2>BENIMOTO RACING</h2>
                 <br>
                 <div class="linhaR"></div>
-                <a href="Sobre.html"> 
+                <a href="Sobre.php"> 
                     <p>Sobre Nós</p>
                 </a>
-                <a href="Inf.html"> 
+                <a href="Inf.php"> 
                     <p>Pedir Informação</p>
                 </a>
                 <div class="redescont">

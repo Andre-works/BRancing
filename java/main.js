@@ -41,3 +41,40 @@ document.getElementById('menu-button').addEventListener('click', function() {
     menu.classList.toggle('show');
 });
 
+document.addEventListener('DOMContentLoaded', (event) => {
+    const modals = document.querySelectorAll('.modal');
+    const openModalBtns = [
+        document.getElementById("openModalBtn1"),
+        document.getElementById("openModalBtn2"),
+        document.getElementById("openModalBtn3"),
+        document.getElementById("openModalBtn4"),
+        document.getElementById("openModalBtn5"),
+        document.getElementById("openModalBtn6"),
+        document.getElementById("openModalBtn7"),
+        document.getElementById("openModalBtn8")
+    ];
+    const closeModalBtns = document.querySelectorAll(".close-btn");
+
+    openModalBtns.forEach((btn, index) => {
+        btn.onclick = function() {
+            modals[index].style.display = "block";
+            document.body.style.overflow = "hidden"; // Desativa a barra de rolagem
+        }
+    });
+
+    closeModalBtns.forEach((btn, index) => {
+        btn.onclick = function() {
+            modals[index].style.display = "none";
+            document.body.style.overflow = ""; // Restaura a barra de rolagem
+        }
+    });
+
+    window.onclick = function(event) {
+        modals.forEach((modal) => {
+            if (event.target === modal) {
+                modal.style.display = "none";
+                document.body.style.overflow = ""; // Restaura a barra de rolagem
+            }
+        });
+    }
+});

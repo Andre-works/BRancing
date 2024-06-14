@@ -87,3 +87,21 @@
     display: block;
     margin-top: 1%;
 }
+.text{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 30px;
+}
+
+.text p{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    color: var(--white1);
+    text-align: center;
+    z-index: 2;
+    display: flex;
+    text-align: justify;
+}

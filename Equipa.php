@@ -108,7 +108,11 @@ if (!isset($_SESSION['usuario_logado'])) {
                     <h2 class="tit-bars">Sede</h2>
                     <div class="barras"></div>
                 </div>
-                <div class="text-bars">Texto</div>
+                <div class="text-bars">
+                <p>A Benimoto Racing está localizada na Benedita, Portugal. Fundada em 2000, a tem como propósito oferecer uma ampla gama de veículos e serviços relacionados aos desportos motorizados. Especializada em moto 4, side-by-side e motas de água, a Benimoto Racing atua como concessionária oficial das marcas Can-Am e Sea-Doo e oficina da equipa de competições.
+                O objetivo da Benimoto Racing é proporcionar uma experiência de qualidade e serviço de excelência. A nossa missão é promover a paixão pelos desportos motorizados e fornecer soluções de mobilidade inovadoras e emocionantes. Com uma equipa dedicada e experiente, a Benimoto Racing busca atender às necessidades dos entusiastas de desportos motorizados, ajudando-os a desfrutar ao máximo da sua experiência de condução.
+                As novas instalações construidas em 2020, que propocionam um espaço de exposição de mais de 200m², uma oficina e um armazem de aproximandamente  1200m². Assim possibilitando o desenvolvimento e aprimoramento dos nossos carros campeões, bem como o desenvolvimento de novas tecnologias para serem usadas em competição.</p>
+                </div>
             </div>
         </section>
         <section class="third-section"> 
@@ -118,16 +122,105 @@ if (!isset($_SESSION['usuario_logado'])) {
                     <h2 class="tit-bare">Equipa</h2>
                 </div>
                 <div class="equip-pics1">
-                    <img class="left-img" src=".\images\Box.jpg" alt="left-img">
-                    <img class="left-img" src=".\images\Box.jpg" alt="left-img">
-                    <img class="left-img" src=".\images\Box.jpg" alt="left-img">
-                    <img class="left-img" src=".\images\Box.jpg" alt="left-img">  
+                    <img id="openModalBtn1" src=".\images\Dep.eng.png" alt="Abrir Modal 1" class="modal-button">
+                    <img id="openModalBtn2" src=".\images\Dep.aer.png" alt="Abrir Modal 2" class="modal-button">
+                    <img id="openModalBtn3" src=".\images\Dep.assi-tec.png" alt="Abrir Modal 3" class="modal-button">
+                    <img id="openModalBtn4" src=".\images\Dep.pil.png" alt="Abrir Modal 4" class="modal-button">
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn">&times;</span>
+                            <p>O Departamento de Engenharia da nossa equipe de corrida é o coração pulsante por trás do desempenho excecional dos nossos veículos em terrenos desafiadores. Com uma equipe de engenheiros apaixonados e experientes, estamos constantemente a inovar e aprimorar os nossos veículos para garantir que estejam prontos para enfrentar qualquer obstáculo.
+                            Os nossos engenheiros (NOMES) dedicam horas incansáveis ​​ao desenvolvimento e ajuste dos veículos para garantir que cada componente seja otimizado para maximizar o desempenho. Desde a suspensão até o sistema de tração, cada detalhe é meticulosamente trabalhado para proporcionar a melhor experiência de condução em condições extremas.
+                            Além disso, a nossa equipa de engenharia está sempre em busca de novas tecnologias e soluções inovadoras para manter os nossos carros no topo da tabela.
+                            No Departamento de Engenharia, a busca pela excelência e o desejo de superar limites impulsionam cada projeto, cada ajuste e cada inovação. Estamos comprometidos em levar os nossos carros ao pódio, e é com orgulho e determinação que enfrentamos cada desafio que se apresenta no emocionante mundo das corridas todo o terreno.</p>
+                            <img src=".\images\Box.jpg">
+                        </div>
+                    </div>
+
+                    <div id="modal2" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn">&times;</span>
+                            <p>O Departamento de Aerodinâmica é a chave para maximizar a eficiência e o desempenho dos nossos veículos em competição. Com uma equipe de especialistas dedicados a moldar o ar ao nosso favor, buscamos constantemente soluções inovadoras para otimizar a aerodinâmica dos nossos veículos e garantir uma vantagem competitiva nas pistas.
+                            Os nossos engenheiros aerodinâmicos utilizam simulações avançadas e análises detalhadas para projetar componentes que reduzem o arrasto, aumentam a downforce e melhoram a estabilidade dos nossos veículos em alta velocidade. Cada curva, cada ângulo e cada detalhe são cuidadosamente estudados e refinados para garantir um desempenho excecional em qualquer terreno.
+                            Além disso, colaboramos estreitamente com os engenheiros de chassis, suspensão e motor para garantir que o design aerodinâmico se integre perfeitamente ao conjunto do veículo, proporcionando um equilíbrio ideal entre velocidade, controle e eficiência. O nosso maior objetivo é criar veículos que cortem o ar com elegância, mantendo-se estáveis e ágeis em condições desafiadoras.
+                            No Departamento de Aerodinâmica, a busca pela excelência, a precisão nos detalhes e a paixão pela inovação são os pilares que nos impulsionam a desafiar os limites da física e da engenharia. Estamos comprometidos em garantir que cada curva, cada salto e nas retas sejam uma oportunidade para os nossos carros brilharem.</p>
+                            <img src=".\images\Box.jpg">
+                        </div>
+                    </div>
+
+                    <div id="modal3" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn">&times;</span>
+                            <p>O Departamento de Assistência Técnica é o suporte fundamental por trás da operação suave e eficiente da nossa equipa. Com técnicos especializados e dedicados, estamos sempre prontos para lidar com os desafios e contratempos que podem surgir antes, durante e após as corridas, garantindo que nossos veículos estejam sempre em condições ideais para competir.
+                            Os nossos técnicos são treinados para lidar com uma ampla gama de situações, desde manutenção preventiva e ajustes de última hora até reparos de emergência e resolução de problemas complexos. Eles trabalham em colaboração com os engenheiros e pilotos para garantir que cada veículo esteja pronto para enfrentar os rigores das corridas, oferecem suporte técnico especializado em todos os aspetos mecânicos e eletrónicos.
+                            Além disso, o Departamento de Assistência Técnica é responsável por gerenciar o cronograma de manutenção, a logística de peças de reposição e o estoque de ferramentas e equipamentos necessários para garantir que a nossa equipa possa operar de forma eficiente em qualquer local e em todas as condições.
+                            No Departamento de Assistência Técnica, a dedicação, a agilidade e a expertise técnica são os pilares que sustentam a nossa equipa e permite-nos superar os desafios mais exigentes das corridas. Estamos comprometidos em fornecer suporte inigualável aos nossos pilotos e engenheiros, garantindo que cada corrida seja uma oportunidade para demonstrar o nosso profissionalismo e excelência técnica.</p>
+                            <img src=".\images\Box.jpg">
+                        </div>
+                    </div>
+
+                    <div id="modal4" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn">&times;</span>
+                            <p>O Departamento de Desenvolvimento de Pilotos é essencial para aprimorar o talento dos nossos pilotos, preparando-os para enfrentar os desafios únicos das corridas. Com um programa abrangente de treino, buscamos não apenas melhorar o desempenho nas pistas, mas também desenvolver habilidades essenciais dentro e fora do veículo.
+                            Os instrutores e treinadores são pilotos experientes e especialistas em corridas off-road, capazes de transmitir conhecimentos técnicos, estratégicos e psicológicos fundamentais para o sucesso nas competições. Eles trabalham em estreita colaboração com cada piloto, identificando pontos fortes e áreas de melhoria, criando planos de desenvolvimento personalizados e oferecendo feedback construtivo para acelerar o crescimento e o progresso.
+                            Além disso, o Departamento de Desenvolvimento de Pilotos organiza sessões de treino práticas, simulações de corrida, preparação física e mental, bem como atividades de team building para fortalecer o espírito de equipe e a conexão entre os pilotos e os membros da equipa. A busca pela excelência, pela consistência e pela resiliência são valores fundamentais que guiam o nosso trabalho diário.
+                            No Departamento de Desenvolvimento de Pilotos, a paixão pela corrida, o comprometimento com a melhoria contínua e o respeito pela tradição e história do desporto são a base que sustentam o nosso programa de formação de pilotos de elite. </p>
+                            <img src=".\images\Box.jpg">
+                        </div>
+                    </div>
                 </div>
                 <div class="equip-pics2">
-                    <img class="left-img" src=".\images\Box.jpg" alt="left-img">
-                    <img class="left-img" src=".\images\Box.jpg" alt="left-img">
-                    <img class="left-img" src=".\images\Box.jpg" alt="left-img">
-                    <img class="left-img" src=".\images\Box.jpg" alt="left-img">   
+                    <img id="openModalBtn5" src=".\images\Dep.ges-des.png" alt="Abrir Modal 5" class="modal-button">
+                    <img id="openModalBtn6" src=".\images\Dep.com.png" alt="Abrir Modal 6" class="modal-button">
+                    <img id="openModalBtn7" src=".\images\Dep.log.png" alt="Abrir Modal 7" class="modal-button">
+                    <img id="openModalBtn8" src=".\images\Dep.marketing.png" alt="Abrir Modal 8" class="modal-button">
+                    <div id="modal5" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn">&times;</span>
+                            <p>O Departamento de Gestão Desportiva desempenha um papel fundamental na organização e administração de todas as atividades relacionadas às  corridas. Com uma abordagem focada no sucesso, a nossa equipa de gestão esportiva trabalha incansavelmente nos bastidores para garantir que todos os aspetos logísticos estejam alinhados para alcançar os objetivos da equipa.
+                            Os nossos gestores esportivos são responsáveis por uma variedade de funções essenciais, incluindo o planeamento do calendários de competições, a coordenação de viagens e hospedagem, a gestão de orçamentos, a supervisão de contratos e acordos comerciais, além do desenvolvimento de estratégias de marketing e comunicação para promover a equipa e os nossos pilotos.
+                            Além disso, o Departamento de Gestão Desportiva atua como o elo entre a equipa, os pilotos, os organizadores de eventos e os fãs, garantindo uma comunicação eficaz e uma representação profissional em todas as interações.
+                            No Departamento de Gestão Desportiva, a visão estratégica e a capacidade de liderança são os pontos cruiciais para a nossa equipa e nos permitem alcançar o sucesso em um ambiente altamente competitivo e dinâmico.</p>
+                            <img src=".\images\Box.jpg">
+                        </div>
+                    </div>
+
+                    <div id="modal6" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn">&times;</span>
+                            <p>Dentro do Departamento de Gestão Desportiva, a área de Comunicação desempenha um papel crucial na construção da imagem da equipa, na promoção da marca e dos pilotos, bem como na interação com os fãs e a imprensa. A comunicação eficaz é essencial para garantir uma presença forte e positiva no mundo das corridas.
+                            Os profissionais de comunicação desta subdivisão são responsáveis por uma variedade de tarefas, incluindo a criação de estratégias de comunicação, a gestão das redes sociais, a produção de conteúdo visual e escrito e a resposta a consultas da imprensa e dos fãs.
+                            Além disso, a equipe de Comunicação trabalha em estreita colaboração com os gestores esportivos e os pilotos para garantir uma mensagem consistente e alinhada com os valores da equipa. Eles são os porta-vozes da equipa em diversos canais de comunicação, transmitindo notícias, atualizações, histórias inspiradoras e informações relevantes para manter os fãs informados.
+                            No Departamento de Comunicação, a criatividade, a proatividade e a habilidade de adaptação são fundamentais para construir relacionamentos sólidos e autênticos com diferentes públicos. A transparência e a autenticidade são valores essenciais que guiam nosso trabalho diário, assegurando que a equipa seja percebida como uma marca confiável, acessível e apaixonante para todos os seus seguidores e apoiadores.</p>
+                            <img src=".\images\Box.jpg">
+                        </div>
+                    </div>
+
+                    <div id="modal7" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn">&times;</span>
+                            <p>O Departamento de Logística desempenha um papel fundamental na equipa, garantindo que todos os aspetos relacionados à movimentação das pessoas, equipamentos, carros e materiais sejam gerenciados de forma eficiente e eficaz. Com a natureza dinâmica e desafiadora das competições, a logística desempenha um papel crucial no sucesso da equipe.
+                            A equipe de logística é responsável por uma série de tarefas essenciais, incluindo o planeamento do tranjeto, a coordenação de alojamento e alimentação durante as competições, o controle do estoque de peças de reposição e equipamentos, além da gestão de cronogramas e horários para garantir que tudo esteja sincronizado.
+                            Além disso, o Departamento de Logística trabalha em estreita colaboração com os gestores esportivos, os mecânicos e os pilotos para garantir que as necessidades logísticas sejam atendidas de forma oportuna e eficiente, permitindo que a equipa se concentre no desempenho nas pistas sem preocupações adicionais.
+                            A logística é a componente importante da equipa, garantindo que tudo funcione sem problemas nos bastidores para que os pilotos possam concentrar-se no que fazem de melhor: competir.</p>
+                            <img src=".\images\Box.jpg">
+                        </div>
+                    </div>
+
+                    <div id="modal8" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn">&times;</span>
+                            <p>O Departamento de Marketing desempenha um papel fundamental na promoção da equipa, garantindo que a mensagem certa seja entregue ao público-alvo da forma mais eficaz possível.
+                            O departamento coleta dados para entender melhor o público-alvo, as preferências e comportamentos de consumo. Isso inclui informações demográficas, padrões de uso e feedback dos clientes.
+                            Com base nos dados coletados, o departamento desenvolve estratégias de marketing personalizadas para atingir e engajar o público-alvo de maneira eficaz. Isso pode envolver campanhas, parcerias estratégicas e marketing de conteúdo.
+                            O Departamento de Marketing trabalha em estreita colaboração com outros departamentos, como Desenvolvimento de Pilotos, Assistência Técnica e Gestão Desportiva, para garantir que as estratégias de marketing estejam alinhadas com os objetivos gerais da equipa.
+                            O marketing integrado é essencial para garantir uma mensagem consistente em todos os canais de comunicação, incluindo redes sociais e publicidade online.
+                            Após a implementação das estratégias de marketing, o departamento analisa os resultados para avaliar a eficácia das campanhas e ajustar as estratégias conforme necessário.
+                            O Departamento de Marketing desempenha um papel crucial na construção da marca, na atração de novos clientes para a Benimoto e na fidelização dos existentes. Com uma abordagem estratégica e orientada a dados, o marketing contribui significativamente para o sucesso e crescimento da empresa.</p>
+                            <img src=".\images\Box.jpg">
+                        </div>
+                    </div>  
                 </div>
             </div>
         </section>
@@ -140,50 +233,51 @@ if (!isset($_SESSION['usuario_logado'])) {
                 <div class="logistic1">
                     <div class="s1">
                         <img class="left-img" src=".\images\maverick-equipa.png" alt="left-img">
-                        <h2>1X</h2>
+                        <h2>5X</h2>
                         <p>Can-am Maverick</p>
-                        <p>Classe</p>
+                        <p>Classe T3 & T4</p>
                     </div>
-                    <div class="s1">
-                        <img class="left-img" src=".\images\Box.jpg" alt="left-img">
-                        <h2>1X</h2>
-                        <p>NOME</p>
-                        <p>NOME</p>
+                    <div class="s2">
+                        <img class="left-img" src=".\images\tenda.png" alt="left-img">
+                        <h2>7X</h2>
+                        <p>Tenda</p>
+                        <p>Sala de Estar</p>
                     </div>
-                    <div class="s1">
-                        <img class="left-img" src=".\images\Box.jpg" alt="left-img">
-                        <h2>1X</h2>
-                        <p>NOME</p>
-                        <p>NOME</p>
+                    <div class="s3">
+                        <img class="left-img1" src=".\images\carrinha.png">
+                        <h2>4X</h2>
+                        <p>Carrinha de suporte</p>
+                        <p>Técnica</p>
                     </div>
                 </div>
                 <div class="logistic2">
                     <div class="s1">
-                        <img class="left-img" src=".\images\Box.jpg" alt="left-img">
-                        <h2>1X</h2>
-                        <p>NOME</p>
-                        <p>NOME</p>
+                        <img class="left-img" src=".\images\oficina.png" alt="left-img">
+                        <h2>20 m²</h2>
+                        <p>Oficina</p>
                     </div>
-                    <div class="s1">
-                        <img class="left-img" src=".\images\Box.jpg" alt="left-img">
-                        <h2>1X</h2>
-                        <p>NOME</p>
-                        <p>NOME</p>
+                    <div class="s5">
+                        <img class="left-img" src=".\images\equipa.png"  alt="left-img">
+                        <h2>12 Pessoas</h2>
+                        <p>Equipa</p>
+                        <p>Suporte</p>
                     </div>
-                    <div class="s1">
-                        <img class="left-img" src=".\images\Box.jpg" alt="left-img">
+                    <div class="s4">
+                        <img class="left-img" src=".\images\camiao.png" alt="left-img">
                         <h2>1X</h2>
-                        <p>NOME</p>
-                        <p>NOME</p>
+                        <p>Porta Carros</p>
+                        <p>Transporte</p>
                     </div>
                 </div>
             </div>
             <div class="montagem">
+                <h2>Serviço global 100% completo e profissional</h2>
                 <div class="top-row">
-                    <h2>Serviço global 100% completo e profissional</h2>
+                    <p>Fazer parte da Benimoto Racing é sinónimo de grandes vitórias, mas também de garantia de um serviço premium e de assistência, com todos os meios necessários á disposição dos nossos clientes e parceiros.
+                    Pode ser contratado o serviço de assistência técnica em prova e ainda um serviço “chave na mão” em que o piloto apenas tem de se deslocar ao local da prova. A nossa equipa trata de todo o processo de inscrição, marcação de alojamento, transporte do veículo até à prova e assistência técnica na mesma.</p>
                     <img src=".\images\Box.jpg" alt="left-img">
                 </div>
-                <p>Texto</p>
+                
             </div>
         </section>
         <div class="barraf"></div>
@@ -215,10 +309,10 @@ if (!isset($_SESSION['usuario_logado'])) {
                 <h2>BENIMOTO RACING</h2>
                 <br>
                 <div class="linhaR"></div>
-                <a href="Sobre.html"> 
+                <a href="Sobre.php"> 
                     <p>Sobre Nós</p>
                 </a>
-                <a href="Inf.html"> 
+                <a href="Inf.php"> 
                     <p>Pedir Informação</p>
                 </a>
                 <div class="redescont">
